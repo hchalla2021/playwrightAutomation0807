@@ -3,7 +3,7 @@ import { HealableLocator } from '../core/SelfHealingEngine';
 /**
  * CHECKOUT PAGES (step one, step two, complete) — locator repository
  */
-//added2
+//added2 no its added4
 export const CheckoutLocators: Record<string, HealableLocator> = {
   firstNameInput: {
     name: 'First name input',
