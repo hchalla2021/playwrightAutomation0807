@@ -1,0 +1,29 @@
+{
+  "name": "playwright-pom-framework",
+  "version": "1.0.0",
+  "description": "Scalable Playwright + TypeScript Page Object Model framework with self-healing locators and retry mechanism",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:chrome": "npx playwright test --project=chromium",
+    "test:firefox": "npx playwright test --project=firefox",
+    "test:headed": "npx playwright test --headed",
+    "test:smoke": "npx playwright test --grep @smoke",
+    "test:regression": "npx playwright test --grep @regression",
+    "test:debug": "npx playwright test --debug",
+    "report": "npx playwright show-report reports/html-report",
+    "codegen": "npx playwright codegen https://www.saucedemo.com"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "pom",
+    "self-healing",
+    "automation"
+  ],
+  "devDependencies": {
+    "@playwright/test": "^1.53.0",
+    "@types/node": "^22.0.0",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.5.0"
+  }
+}

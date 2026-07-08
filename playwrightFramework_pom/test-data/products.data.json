@@ -1,0 +1,11 @@
+{
+  "expectedProductCount": 6,
+  "productsToBuy": ["Sauce Labs Backpack", "Sauce Labs Bike Light"],
+  "singleProduct": "Sauce Labs Backpack",
+  "sortOptions": {
+    "nameAscending": "az",
+    "nameDescending": "za",
+    "priceLowToHigh": "lohi",
+    "priceHighToLow": "hilo"
+  }
+}

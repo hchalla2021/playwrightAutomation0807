@@ -1,0 +1,14 @@
+{
+  "validCustomer": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "postalCode": "500081"
+  },
+  "missingFirstName": {
+    "firstName": "",
+    "lastName": "Doe",
+    "postalCode": "500081",
+    "expectedError": "Error: First Name is required"
+  },
+  "expectedCompleteMessage": "Thank you for your order!"
+}
