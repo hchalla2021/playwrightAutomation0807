@@ -5,6 +5,7 @@ import { HealableLocator } from '../core/SelfHealingEngine';
  * Each locator carries a primary selector + self-healing fallbacks.
  * Keep the most stable selector (data-test / id) as primary.
  */
+//added3
 export const LoginLocators: Record<string, HealableLocator> = {
   usernameInput: {
     name: 'Username input',

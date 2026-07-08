@@ -3,6 +3,7 @@ import { HealableLocator } from '../core/SelfHealingEngine';
 /**
  * CART PAGE — locator repository
  */
+//added1
 export const CartLocators: Record<string, HealableLocator> = {
   pageTitle: {
     name: 'Cart page title',
